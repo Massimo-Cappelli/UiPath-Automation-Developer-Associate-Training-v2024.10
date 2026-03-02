@@ -1,0 +1,6 @@
+{
+  "Name": "1.3-StringManipulationUsingStringActivities",
+  "ProjectType": "Process",
+  "Description": "Practice 3 - string manipulation using string activities",
+  "MainFile": "Main.xaml"
+}
