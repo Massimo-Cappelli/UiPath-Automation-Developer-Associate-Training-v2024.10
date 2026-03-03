@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uasc="clr-namespace:UiPath.Activities.System.Collections;assembly=UiPath.System.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -79,7 +79,7 @@
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="897.2,1143.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="897.2,796.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="scg:List(x:String)" Name="ListOfCountries">
         <Variable.Default>
@@ -98,48 +98,24 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap2010:Annotation.AnnotationText="Sort the list and print the three descending values &#xD;&#xA;&#xD;&#xA;Given a list of countries as input, please sort the list in alphabetical order, then print out the first three values in descending order in the Output Panel. &#xD;&#xA;&#xD;&#xA;Note: Use this value for the List initialization: new List (of String) from {&quot;Germany&quot;, &quot;Spain&quot;, &quot;Japan&quot;, &quot;Brazil&quot;, &quot;India&quot;, &quot;China&quot;}. &#xD;&#xA;&#xD;&#xA;Output: one entry in the Output panel containing a list with the three alphabetical descending items (“Spain, Japan, India”)." DisplayName="Practice 1 - using lists - Sequence" sap:VirtualizedContainerService.HintSize="484.8,1120" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence sap2010:Annotation.AnnotationText="Sort the list and print the three descending values &#xD;&#xA;&#xD;&#xA;Given a list of countries as input, please sort the list in alphabetical order, then print out the first three values in descending order in the Output Panel. &#xD;&#xA;&#xD;&#xA;Note: Use this value for the List initialization: new List (of String) from {&quot;Germany&quot;, &quot;Spain&quot;, &quot;Japan&quot;, &quot;Brazil&quot;, &quot;India&quot;, &quot;China&quot;}. &#xD;&#xA;&#xD;&#xA;Output: one entry in the Output panel containing a list with the three alphabetical descending items (“Spain, Japan, India”)." DisplayName="Practice 1 - using lists - Sequence" sap:VirtualizedContainerService.HintSize="449.6,773.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <InvokeMethod DisplayName="SORT - Invoke Method" sap:VirtualizedContainerService.HintSize="451.2,166.4" sap2010:WorkflowViewState.IdRef="InvokeMethod_1" MethodName="Sort">
+      <InvokeMethod DisplayName="SORT - Invoke Method" sap:VirtualizedContainerService.HintSize="416,166.4" sap2010:WorkflowViewState.IdRef="InvokeMethod_1" MethodName="Sort">
         <InvokeMethod.TargetObject>
           <InArgument x:TypeArguments="scg:List(x:String)">[ListOfCountries]</InArgument>
         </InvokeMethod.TargetObject>
       </InvokeMethod>
-      <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" DisplayName="GET 3 Countries - Do While" sap:VirtualizedContainerService.HintSize="451.2,529.6" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_1">
-        <ui:InterruptibleDoWhile.Body>
-          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="449.6,399.2" sap2010:WorkflowViewState.IdRef="Sequence_3">
-            <sap:WorkflowViewStateService.ViewState>
-              <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-              </scg:Dictionary>
-            </sap:WorkflowViewStateService.ViewState>
-            <uasc:AppendItemToCollection x:TypeArguments="x:String" Collection="[SubListOfCountries]" DisplayName="ADD COUNTRY - Append Items to Collection" sap:VirtualizedContainerService.HintSize="416,173.6" sap2010:WorkflowViewState.IdRef="AppendItemToCollection`1_1">
-              <uasc:AppendItemToCollection.Items>
-                <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
-                  <InArgument x:TypeArguments="x:String">[ListOfCountries(id)]</InArgument>
-                </scg:List>
-              </uasc:AppendItemToCollection.Items>
-            </uasc:AppendItemToCollection>
-            <Assign DisplayName="Increase ID - Assign" sap:VirtualizedContainerService.HintSize="416,165.6" sap2010:WorkflowViewState.IdRef="Assign_1">
-              <Assign.To>
-                <OutArgument x:TypeArguments="x:Int32">[id]</OutArgument>
-              </Assign.To>
-              <Assign.Value>
-                <InArgument x:TypeArguments="x:Int32">[id + 1]</InArgument>
-              </Assign.Value>
-            </Assign>
-          </Sequence>
-        </ui:InterruptibleDoWhile.Body>
-        <ui:InterruptibleDoWhile.Condition>
-          <VisualBasicValue x:TypeArguments="x:Boolean" DisplayName="Visual basic value" ExpressionText="id &lt; 3" />
-        </ui:InterruptibleDoWhile.Condition>
-      </ui:InterruptibleDoWhile>
-      <ui:LogMessage DisplayName="LOG SUB LIST - Log Message" sap:VirtualizedContainerService.HintSize="451.2,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[string.Join(&quot;, &quot;, SubListOfCountries)]" />
+      <InvokeMethod DisplayName="REVERSE - Invoke Method" sap:VirtualizedContainerService.HintSize="416,166.4" sap2010:WorkflowViewState.IdRef="InvokeMethod_2" MethodName="Reverse">
+        <InvokeMethod.TargetObject>
+          <InArgument x:TypeArguments="scg:List(x:String)">[ListOfCountries]</InArgument>
+        </InvokeMethod.TargetObject>
+      </InvokeMethod>
+      <ui:LogMessage DisplayName="LOG SUB LIST - Log Message" sap:VirtualizedContainerService.HintSize="416,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[String.Join(&quot;, &quot;, ListOfCountries.GetRange(0,3))]" />
     </Sequence>
   </Sequence>
 </Activity>
