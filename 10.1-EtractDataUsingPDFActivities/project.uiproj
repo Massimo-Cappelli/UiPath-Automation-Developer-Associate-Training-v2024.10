@@ -1,0 +1,6 @@
+{
+  "Name": "10.1-EtractDataUsingPDFActivities",
+  "ProjectType": "Process",
+  "Description": "Practice 1 - Extract data using PDF activities",
+  "MainFile": "Main.xaml"
+}
