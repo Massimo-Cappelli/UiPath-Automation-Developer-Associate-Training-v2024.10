@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Always open PDFs in Acr…(1)",
+  "Type": "Element",
+  "Id": "VSGiCesjKk6OXYTdJAS6NQ",
+  "Reference": "MctOY1OqIESB4AG_ZSXe7g/VSGiCesjKk6OXYTdJAS6NQ",
+  "ParentRef": "MctOY1OqIESB4AG_ZSXe7g/ZQm5mJCYek237GXHT14UMQ",
+  "Created": "2026-04-02T08:36:38.180782Z",
+  "Updated": "2026-04-02T08:36:38.180782Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

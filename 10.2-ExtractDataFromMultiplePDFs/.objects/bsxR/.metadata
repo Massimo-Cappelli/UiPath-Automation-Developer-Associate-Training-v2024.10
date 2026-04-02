@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Edge Invoice.pdf",
+  "Type": "App",
+  "Id": "bsxRMWiYXUml_f6guiUaCw",
+  "Reference": "MctOY1OqIESB4AG_ZSXe7g/bsxRMWiYXUml_f6guiUaCw",
+  "Created": "2026-04-01T15:24:45.2096239Z",
+  "Updated": "2026-04-01T15:24:45.2096239Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

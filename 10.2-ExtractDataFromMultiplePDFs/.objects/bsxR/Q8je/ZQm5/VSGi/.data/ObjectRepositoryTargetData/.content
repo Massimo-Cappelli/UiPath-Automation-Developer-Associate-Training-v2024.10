@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="mEtuDA_KLEmYaLOAQUxUcA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="0, 0, 750, 275" ElementVisibilityArgument="Interactive" Guid="2c52fc0b-9a0d-4e90-b78b-4f13fc148d52" ScopeSelectorArgument="&lt;wnd aaname='Always open PDFs in Acrobat Reader' app='acrobat.exe' cls='AVL_AVDialog' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="8a83da1853edbd11421fef69fdbd1197.jpg" xmlns="">0W4UcQOhDN0670c-APH_O8w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">FindElements</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

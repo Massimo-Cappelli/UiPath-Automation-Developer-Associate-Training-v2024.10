@@ -1,0 +1,6 @@
+{
+  "Name": "10.2-ExtractDataFromMultiplePDFs",
+  "ProjectType": "Process",
+  "Description": "Practice 2 - extract data from multiple PDFs ",
+  "MainFile": "Main.xaml"
+}
