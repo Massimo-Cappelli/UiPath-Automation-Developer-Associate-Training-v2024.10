@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryScreenData ContentHash="TdbT1J_KGUi2oPVZbKIgjA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-  <ObjectRepositoryScreenData.Data>
-    <TargetApp x:Key="TargetApp" Area="0, 0, 0, 0" Selector="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='ACME System 1 - Add Vendor and 1 more page - Personal - Microsof*' /&gt;" Url="acme-test.uipath.com/vendors/add" />
-  </ObjectRepositoryScreenData.Data>
-</ObjectRepositoryScreenData>

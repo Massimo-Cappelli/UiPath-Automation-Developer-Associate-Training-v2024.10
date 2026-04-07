@@ -1,0 +1,6 @@
+{
+  "Name": "5.1-HighlightWFTTypeItemsOnACME",
+  "ProjectType": "Process",
+  "Description": "Practice 1—highlight WFT type items on ACME",
+  "MainFile": "Main.xaml"
+}

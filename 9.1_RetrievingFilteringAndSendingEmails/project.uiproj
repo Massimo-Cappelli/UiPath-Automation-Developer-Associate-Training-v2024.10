@@ -1,6 +1,0 @@
-{
-  "Name": "9.1_RetrievingFilteringAndSendingEmails",
-  "ProjectType": "Process",
-  "Description": "Practice - retrieving, filtering, and sending emails (Gmail with IMAP and SMTP) ",
-  "MainFile": "Main.xaml"
-}

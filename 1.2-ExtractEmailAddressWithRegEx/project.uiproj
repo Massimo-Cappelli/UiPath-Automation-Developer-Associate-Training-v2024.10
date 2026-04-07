@@ -1,6 +1,0 @@
-{
-  "Name": "1.2-ExtractEmailAddressWithRegEx",
-  "ProjectType": "Process",
-  "Description": "Blank Process1.2-Extract email address with RegEx",
-  "MainFile": "Main.xaml"
-}
