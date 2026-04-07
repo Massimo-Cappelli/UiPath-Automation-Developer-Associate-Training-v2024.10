@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="L___Jnh0b0GmX1iA_2svOw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="nseindia.com/index-tracker/NIFTY%2050" CVScreenId="e383fc4f-735d-4049-b8b4-4519f5daa8d1" CvElementArea="362, 529, 43, 31" CvType="Icon" DesignTimeRectangle="365, 533, 37, 22" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='midBody' tag='path' /&gt;" Guid="01450897-1f9e-4559-8d12-7ef3218d44d0" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACkAAAAaCAYAAAAqjnX1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAD9SURBVFhH5dc7DsIwDAbgjtyEm3ATTsItGFk4ABeAHSYmmDp1YurGFGQkR6nzaBK7dRGW/qVxpU+VUtmN+YFq6IMl1v8h23dvDq+HufQdPWKVCBJwm+fJrG77b9b3o9l1V9pWXWwkABFHs23PtL2qWMgUUBJajcwBSkGrkCVACWgxsgbIhRYhOUAONBspAcSUQrOQkkBMCXQUOQUQkwtNIqcEYnKgUeQcQMwYNIicE4hJQT2kBhATgw6QmkBMCDpA0he0QqEWCQe0WSswj7qDs0XCAW3WjDs0W6Q7WS8hsIZ4SJDTRs3AJfaQdE/RDF3kgv9J+KpwkeZObHn7AP68ehBz4uTxAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;html app='msedge.exe' title='NIFTY 50 - NSE India' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e383fc4f-735d-4049-b8b4-4519f5daa8d1" CvTextArea="129, 464, 110, 23" CvTextArgument="NIFTY 50" CvType="Text" DesignTimeRectangle="131, 458, 532, 44" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='index' parentid='midBody' tag='DIV' type='' aaname='NIFTY 50' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='NIFTY 50' /&gt;" Guid="c5d64e5d-9fdd-4a20-9069-227042c8bf4a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6d2d4928564cbd9da9556aae3f4e9537.jpg" xmlns="">0o0uh2biKCUqpBBeXPgrkoQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetAttributeGeneric</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

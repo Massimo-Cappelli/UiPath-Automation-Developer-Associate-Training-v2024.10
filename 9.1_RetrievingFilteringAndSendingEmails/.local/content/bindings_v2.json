@@ -1,0 +1,53 @@
+{
+  "version": "2.0",
+  "resources": [
+    {
+      "activityDisplayName": "OUTLOOK - Get Email List",
+      "activityId": "GetEmailListConnections_1",
+      "resource": "Connection",
+      "key": "caeef8f0-e121-40e7-8aa5-502b92e034fa",
+      "id": "Connectioncaeef8f0-e121-40e7-8aa5-502b92e034facaeef8f0-e121-40e7-8aa5-502b92e034faFalse",
+      "value": {
+        "ConnectionId": {
+          "defaultValue": "caeef8f0-e121-40e7-8aa5-502b92e034fa",
+          "isExpression": false,
+          "displayName": "Connection",
+          "description": "The connection to be used"
+        }
+      },
+      "metadata": {
+        "BindingsVersion": "2.2",
+        "Connector": "uipath-microsoft-outlook365",
+        "UseConnectionService": "True"
+      }
+    },
+    {
+      "activityDisplayName": "OUTLOOK - Get Email List",
+      "activityId": "GetEmailListConnections_1",
+      "resource": "Property",
+      "key": "caeef8f0-e121-40e7-8aa5-502b92e034fa.OUTLOOK - Get Email List",
+      "id": "Propertycaeef8f0-e121-40e7-8aa5-502b92e034fa.OUTLOOK - Get Email ListInboxFalseInboxFalse",
+      "value": {
+        "parentFolderName": {
+          "defaultValue": "Inbox",
+          "isExpression": false,
+          "displayName": "Email folder",
+          "description": "The folder to get the emails from"
+        },
+        "parentFolderId": {
+          "defaultValue": "Inbox",
+          "isExpression": false,
+          "displayName": "Email folder",
+          "description": "The Outlook email folder to get emails from"
+        }
+      },
+      "metadata": {
+        "BindingsVersion": "2.1",
+        "ActivityName": "OUTLOOK - Get Email List",
+        "ObjectName": "Message",
+        "DisplayLabel": "parentFolderName",
+        "ParentResourceKey": "Connection.caeef8f0-e121-40e7-8aa5-502b92e034fa"
+      }
+    }
+  ]
+}

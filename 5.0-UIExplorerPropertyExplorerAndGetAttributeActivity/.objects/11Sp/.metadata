@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Edge NSE - National Stock Exchange of India Ltd Live ShareStock Market News &amp; Upd",
+  "Type": "App",
+  "Id": "11Spv_C9wkODSJ586Mvf-A",
+  "Reference": "O2QViCy69kGKnOlB6USx_Q/11Spv_C9wkODSJ586Mvf-A",
+  "Created": "2026-03-12T15:01:04.3524356Z",
+  "Updated": "2026-03-12T15:01:04.3524356Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

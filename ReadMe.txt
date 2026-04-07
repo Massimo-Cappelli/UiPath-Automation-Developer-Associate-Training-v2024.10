@@ -1,0 +1,12 @@
+1.1-ExtractEmailAddressUsingStringMethods
+1.2-ExtractEmailAddressWithRegEx
+1.3-StringManipulationUsingStringActivities
+2.1-UsingLists
+2.2-UsingDictionariesAndIntegers
+3.1-CheckAppStateandVerifyExecution
+4.1-FixMyWorkflow
+4.2-FineTuningTheDescriptor
+5.1-HighlightWFTTypeItemsOnACME
+7.1-TryCatch
+8.1-WorkingWithLocalFilesAndFolders
+9.1-RetrievingFilteringAndSendingEmails
