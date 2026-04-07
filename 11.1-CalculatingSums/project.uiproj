@@ -1,0 +1,6 @@
+{
+  "Name": "11.1-CalculatingSums",
+  "ProjectType": "Process",
+  "Description": "Practice 1-calculating sums ",
+  "MainFile": "Main.xaml"
+}
